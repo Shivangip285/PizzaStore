@@ -16,6 +16,7 @@ class PizzaStoreApplicationTests {
 	@Test
 	void shouldGetCheeseBurstMargheritaPizzas() {
 		PizzaReceipe margheritaPizzaReceipe=new MargheritaPizza();
+
 		margheritaPizzaReceipe = new CheeseTopping(new CheeseBurstDough(margheritaPizzaReceipe));
 		margheritaPizzaReceipe.makePizza();
 	}
