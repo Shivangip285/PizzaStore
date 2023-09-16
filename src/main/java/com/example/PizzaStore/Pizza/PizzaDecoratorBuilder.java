@@ -1,4 +1,9 @@
-package com.example.PizzaStore;
+package com.example.PizzaStore.Pizza;
+
+import com.example.PizzaStore.Pizza.BasicPizza.FarmHousePizza;
+import com.example.PizzaStore.Pizza.Decorator.CheeseBurstDough;
+import com.example.PizzaStore.Pizza.Decorator.CheeseTopping;
+import com.example.PizzaStore.Pizza.Decorator.PizzaReceipe;
 
 public class PizzaDecoratorBuilder {
     public PizzaReceipe pizzaReceipe=new FarmHousePizza();
