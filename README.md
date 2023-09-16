@@ -23,7 +23,3 @@ Please adhere to the following guidelines while contributing to this codebase
 
 `./gradlew test`
 
-### Healthcheck
-
-The application's health is available [here](http://localhost:8080/health).
-
